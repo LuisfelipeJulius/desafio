@@ -426,6 +426,13 @@ label{
             flex-direction: column;
         }
 
+        ..columna_izquierda {
+            background-image: url(https://www.momentosfriko.com/Portals/MomentosFriko/2024/Desafio/Img_inicio.png);
+            background-position: center;
+            height: 100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+
        
  }
 
