@@ -15,7 +15,8 @@ body {
         }
 
         #caja-formulario{
-            height: 100%;
+            height: 100vh;
+            width: 100vw;
             display: flex;
             background-color: #f6f3f3;
 
