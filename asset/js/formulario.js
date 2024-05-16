@@ -107,7 +107,8 @@ document.addEventListener('DOMContentLoaded', function() {
         setTimeout(function() {
             document.querySelector('.overlay').style.display = 'none';
             document.querySelector('.spinner-popup').style.display = 'none';
-            window.location.href = 'https://momentosfriko.com/desafio/registro-exitoso';
+            // Redirige a la siguiente URL después de enviar el formulario con éxito
+            window.top.location.href = 'https://momentosfriko.com/desafio/registro-exitoso';
         }, 6000);
     }
         mostrarPopup();

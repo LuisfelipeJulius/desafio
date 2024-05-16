@@ -348,14 +348,28 @@ label{
 
     /** phone **/
 
-        @media only screen and (max-width: 600px) 
+        @media only screen and (max-width: 800px) 
 {
-        #caja{
+        #caja-formulario{
             display: flex;
             flex-direction: column;
             background-color: #ffffff;
 
         }
+
+        .campos{
+            width: 100%;
+        }
+
+        .formulario-desafio{
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        #caja-preguntas{display: flex;
+            flex-direction: column;
+            background-color: #ffffff;}
 
         .columna_derecha{
             width: 100%;
@@ -363,7 +377,7 @@ label{
 
         .imagen_desafio{
             width: 100%;
-            height: 400px;
+            height: auto;
         }
 
         .caja_preguntas{
