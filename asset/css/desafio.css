@@ -426,12 +426,18 @@ label{
             flex-direction: column;
         }
 
-        ..columna_izquierda {
+        .columna_izquierda {
             background-image: url(https://www.momentosfriko.com/Portals/MomentosFriko/2024/Desafio/Img_inicio.png);
             background-position: center;
             height: 100vh;
+            width: 100%;
             background-size: cover;
             background-repeat: no-repeat;
+
+            #caja-formulario {
+                height: 100%;
+                width: 100%;
+            }
 
        
  }
