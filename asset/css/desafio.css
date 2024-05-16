@@ -431,7 +431,7 @@ label{
         .columna_izquierda {
             background-image: url(https://www.momentosfriko.com/Portals/MomentosFriko/2024/Desafio/Img_inicio.png);
             background-position: center;
-            height: 100vh;
+            height: 50vh;
             width: 100%;
             background-size: cover;
             background-repeat: no-repeat;
@@ -441,7 +441,7 @@ label{
         .columna_izquierda2 {
             background-image: url(https://www.momentosfriko.com/Portals/MomentosFriko/2024/Desafio/img_pregunta.png);
             background-position: center;
-            height: 100vh;
+            height: 60vh;
             background-size: cover;
             background-repeat: no-repeat;
         }
