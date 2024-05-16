@@ -436,6 +436,42 @@ label{
             background-size: cover;
             background-repeat: no-repeat;
 
+        }
+
+        .columna_izquierda2 {
+            background-image: url(https://www.momentosfriko.com/Portals/MomentosFriko/2024/Desafio/img_pregunta.png);
+            background-position: center;
+            height: 100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .columna_derecha_formulario {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            color: #FDFBFB;
+            padding: 0px 0px 0px 0px;
+            width: 100%;
+        }
+
+        .caja_preguntas {
+            background-color: white;
+            border-radius: 6px;
+            margin: auto;
+            padding: 50px;
+            width: 100%;
+            height: auto;
+        }
+
+        .botones {
+            margin: auto;
+            margin-left: 10%;
+            margin-bottom: 20%;
+            margin-top: -14%;
+        }
+            
+
         
 
        
@@ -516,5 +552,4 @@ label{
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
 }
