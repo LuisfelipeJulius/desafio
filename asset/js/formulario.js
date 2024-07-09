@@ -108,13 +108,13 @@ document.addEventListener('DOMContentLoaded', function() {
             document.querySelector('.overlay').style.display = 'none';
             document.querySelector('.spinner-popup').style.display = 'none';
             // Redirige a la siguiente URL después de enviar el formulario con éxito
-            window.top.location.href = 'https://momentosfriko.com/desafio/registro-exitoso';
+            window.top.location.href = 'https://www.momentosfriko.com/desafio-copa-america/registro-exitoso';
         }, 6000);
     }
         mostrarPopup();
     
         // Enviar datos al servidor
-        fetch('https://hook.us1.make.com/cah5nmk7y61nwptxpp5nkcqdkrwd1fyp', {
+        fetch('https://hook.us1.make.com/cxndb4giflcolhx6uovzqqe3ttoqv3ds', {
             method: 'POST',
             body: formDataDesafio
         })
